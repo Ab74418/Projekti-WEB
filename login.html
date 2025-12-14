@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="sq">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <a href="login.html">Login</a>
+        <a href="register.html">Register</a>
+    </nav>
+
+    <form class="auth-form" id="loginForm">
+        <h2>Login</h2>
+        <label>Username:</label><br>
+        <input type="text" id="loginUser" placeholder="Shkruaj username"><br><br>
+
+        <label>Password:</label><br>
+        <input type="password" id="loginPass" placeholder="Shkruaj password"><br><br>
+
+        <button type="button" onclick="validateLogin()">Login</button>
+    </form>
+
+    <footer>
+        Ftesa Online - 2025
+    </footer>
+
+    <script src="login.js"></script>
+</body>
+</html>
